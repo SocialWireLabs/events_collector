@@ -1,0 +1,41 @@
+<?php
+
+return array(
+    // Config
+    'events_collector:period' => 'How often should the system log be archived?',
+    'events_collector:events_collectord' => "Log rotated\n",
+    'events_collector:lognotrotated' => "Error rotating log\n",
+    'events_collector:delete' => 'Delete archived logs older than a',
+    'events_collector:week' => 'week',
+    'events_collector:month' => 'month',
+    'events_collector:year' => 'year',
+    'events_collector:never' => 'never',
+    'events_collector:logdeleted' => "Log deleted\n",
+    'events_collector:lognotdeleted' => "No logs deleted\n",
+    //
+    'events_collector:events_collector' => 'Activity log', //This is the title
+    'events_collector:date' => 'Date and time',
+    'events_collector:group' => 'Activity log',
+    'events_collector:members:recent_activity' => 'Recent activity',
+    'events_collector:user_button' => 'My activity log',
+    'events_collector:groups:members:title' => 'Members of %s',
+    'events_collector:no_events' => 'He/she has not made any activity in the group',
+    'events_collector:search' => 'Refine results',
+    'events_collector:user' => 'Username to search by',
+    'events_collector:starttime' => 'Beginning time (for example "last monday", "1 hour ago", "2 April")',
+    'events_collector:endtime' => 'End time',
+    'events_collector:container_guid' => 'Group to search by',
+    'events_collector:action_type' => 'Action type to search by',
+    'events_collector:resource_type' => 'Resource type to search by',
+    'events_collector:no_result' => 'No results',    
+    'events_collector:time_created' => 'Date and time',
+    'events_collector:actor_guid' => 'Actor',
+    'events_collector:action_type' => 'Action type',
+    'events_collector:resource_type' => 'Resource type',
+    'events_collector:resource_guid' => 'Resource',
+    'events_collector:owner_guid' => 'Resource owner',
+    'events_collector:container_guid' => 'Group',
+    'events_collector:last_event' => 'Last event date and time: %s',
+    'events_collector:userrequired' => 'You don´t have permissions to access to this activity',
+    'events_collector:resource:not_available' => 'Resource removed',
+);

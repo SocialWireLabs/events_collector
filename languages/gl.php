@@ -1,0 +1,41 @@
+<?php
+
+return array(
+    // Config
+    'events_collector:period' => 'Con que frecuencia debe arquivarse o rexistro do sistema?',
+    'events_collector:events_collectord' => "Rotouse o rexistro\n",
+    'events_collector:lognotrotated' => "Non foi posíbel rotar o rexistro.\n",
+    'events_collector:delete' => 'Eliminar rexistros arquivados de máis de',
+    'events_collector:week' => 'unha semana',
+    'events_collector:month' => 'un mes',
+    'events_collector:year' => 'un an',
+    'events_collector:never' => 'nunca',  
+    'events_collector:logdeleted' => "Eliminouse o rexistro.\n",
+    'events_collector:lognotdeleted' => "Non se eliminou ningún rexistro.\n",
+    //
+    'events_collector:events_collector' => 'Rexistro de actividade', //This is the title
+    'events_collector:date' => 'Data e hora',
+    'events_collector:group' => 'Rexistro de actividade',
+    'events_collector:members:recent_activity' => 'Última actividade',
+    'events_collector:user_button' => 'O meu rexistro de actividade',
+    'events_collector:groups:members:title' => 'Membros de %s',
+    'events_collector:no_events' => 'Non realizou ningunha actividade no grupo',
+    'events_collector:search' => 'Refinar os resultados',
+    'events_collector:user' => 'Nome de usuario',
+    'events_collector:starttime' => 'Tempo de comezo (for example "last monday", "1 hour ago", "2 April")',
+    'events_collector:endtime' => 'Tempo final',
+    'events_collector:container_guid' => 'Grupos ou perfil',
+    'events_collector:action_type' => 'Tipo de acción',
+    'events_collector:resource_type' => 'Tipo de recurso',
+    'events_collector:no_result' => 'Non hai resultados',
+    'events_collector:time_created' => 'Data e hora',
+    'events_collector:actor_guid' => 'Actor',
+    'events_collector:action_type' => 'Tipo de acción',
+    'events_collector:resource_type' => 'Tipo de recurso',
+    'events_collector:resource_guid' => 'Recurso',
+    'events_collector:owner_guid' => 'Dono do recurso',
+    'events_collector:container_guid' => 'Grupo',
+    'events_collector:last_event' => 'Data e hora da última actividade: %s',
+    'events_collector:userrequired' => 'Non ten permisos para acceder a eses eventos',
+    'events_collector:resource:not_available' => 'Recurso borrado',
+);
